@@ -1,0 +1,21 @@
+version: '3'
+services:
+  master:
+    image: master_image
+    networks:
+      - fed_network
+    environment:
+      - NUM_SLAVES=${NUM_SLAVES}
+
+  slave:
+    image: slave_image
+    networks:
+      - fed_network
+    # You can add other configuration options for the slave container here
+    depends_on:
+      - master
+
+
+networks:
+  fed_network:
+    driver: bridge 

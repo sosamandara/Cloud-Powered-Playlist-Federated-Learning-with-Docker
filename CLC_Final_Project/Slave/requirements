@@ -1,0 +1,6 @@
+Flask[async]
+numpy
+scikit-learn
+pandas
+asyncio
+requests
