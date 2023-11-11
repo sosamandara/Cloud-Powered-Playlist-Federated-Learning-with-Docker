@@ -8,14 +8,17 @@ This repository introduces a comprehensive **federated learning framework** desi
 - **Master-Slave Architecture**: The system orchestrates federated learning using a **master node**, initiating the **logistic regression model**, and coordinating updates from **multiple slave nodes**.
   - Decentralized Collaboration: Enables collaborative model building while preserving data privacy and adhering to regulatory constraints.
 
-<img width="900" alt="plot1" src="https://github.com/sosamandara/Cloud-Powered-Playlist-Federated-Learning-with-Docker/issues/1#issuecomment-1806893955">
+    <img width="300" alt="plot1" src="https://user-images.githubusercontent.com/113529675/282260910-1b33bf11-20b4-47c9-a899-1d89d856d3dd.jpeg">
 
 - **Dockerization for Enhanced Security**:
   - Docker Containers: Utilizes Docker to encapsulate and isolate the federated learning process, providing enhanced security and preventing unintended data leaks.
   - Efficient Weight Distribution: Docker efficiently transfers model weights between the master and slave nodes, ensuring consistency and reproducibility.
+    
 - **AWS Deployment for Scalability**:
   - Cloud Environment: The system is deployed on AWS for scalability and accessibility, allowing efficient collaboration among client nodes while adhering to stringent data security requirements.
   - AWS EC2 Instances: Multiple instances are launched, each running the federated learning application, showcasing scalability with varying numbers of slave nodes.
+
+    <img width="300" alt="plot1" src="https://user-images.githubusercontent.com/113529675/282261076-82cfc045-12bf-427c-8c78-5b94c47b5212.png">
 
 - **Implementation Details:**
   - RESTful API: Implemented using Flask to facilitate communication between master and slave nodes.
