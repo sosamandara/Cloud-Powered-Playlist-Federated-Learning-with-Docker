@@ -18,7 +18,7 @@ This repository introduces a comprehensive **federated learning framework** desi
   - Cloud Environment: The system is deployed on AWS for scalability and accessibility, allowing efficient collaboration among client nodes while adhering to stringent data security requirements.
   - AWS EC2 Instances: Multiple instances are launched, each running the federated learning application, showcasing scalability with varying numbers of slave nodes.
 
-    <img width="300" alt="plot1" src="https://user-images.githubusercontent.com/113529675/282261076-82cfc045-12bf-427c-8c78-5b94c47b5212.png">
+    <img width="900" alt="plot1" src="https://user-images.githubusercontent.com/113529675/282261076-82cfc045-12bf-427c-8c78-5b94c47b5212.png">
 
 - **Implementation Details:**
   - RESTful API: Implemented using Flask to facilitate communication between master and slave nodes.
